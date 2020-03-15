@@ -1,3 +1,11 @@
+
+https://create-react-app.dev/docs/available-scripts
+https://www.npmjs.com/package/npx
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
