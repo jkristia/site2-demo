@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const Title = () => {
+	return (
+		<div className="title">
+			Site 2
+		</div>
+	);
+};
+
+const Content = () => {
+	return (
+		<div className="content">
+			<div>
+				<div>Test of react app hosted on github</div>
+				<a href="https://github.com/jkristia/site1-demo">https://github.com/jkristia/site2-demo</a>
+			</div>
+		</div>
+	)
+}
+
+const App = () => {
+	return (
+		<div className="main">
+			<Title></Title>
+			<Content></Content>
+		</div>
+	);
 }
 
 export default App;
